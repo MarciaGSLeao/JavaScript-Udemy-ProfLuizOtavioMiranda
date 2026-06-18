@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Formulário </title>
+</head>
+<body>
+    <section>
+        <form class="formularioDadosPessoais" action="" method="get">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <label for="nome">Nome:</label>
+                <input class="nome" type="text" id="nome" name="nome" ><br><br>
+                <label for="sobrenome">Sobrenome:</label>
+                <input class="sobrenome" type="text" id="sobrenome" name="sobrenome" ><br><br>
+                <label for="peso">Peso:</label>
+                <input class="peso" type="number" id="peso" name="peso" ><br><br>
+                <label for="altura">Altura:</label>
+                <input class="altura" type="number" id="altura" name="altura" ><br><br>
+
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+
+        <div class="resultado">
+            <h4>Nomes informados:</h4>
+            <p id="resultadoNome"></p>
+            <p id="resultadoSobrenome"></p>
+            <p id="resultadoPeso"></p>
+            <p id="resultadoAltura"></p>
+
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
